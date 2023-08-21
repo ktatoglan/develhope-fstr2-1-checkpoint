@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 0;
+}
+
+.br-20{
+    border-radius: 5%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  max-width: 60%;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+  padding: 12px;
+  margin: 8px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px;
+}
+
+img{
+    margin: 4px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin: 8px;
+}
+
+.input-container:last-of-type {
+    flex-direction: row;
+}
+
+.big-input {
+    line-height: 8rem;
+    font-size: 2rem;
+    padding: 4px 10px;
+    border-radius: 70px;
+}
+
+.input-container .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8px;
+}
+
+input[type=text]:not(.big-input){
+    padding: 2px 8px;
+    height: 24px;
+    border-radius: 20px;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8px;
+}
+
+.bg-pink{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit]{
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    margin: 12px;
+    color: white;
+    background: blue;
+    width: 250px;
+    align-self: center;
+    border-radius: 40px;
+}
+
+
+
